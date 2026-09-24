@@ -1,0 +1,48 @@
+{
+  "global_rounds": 2,
+  "feature_order": [
+    "add_friend",
+    "accept_friend",
+    "story",
+    "post",
+    "like",
+    "comment",
+    "messenger"
+  ],
+  "accounts": [
+    {
+      "id": "app01",
+      "enabled": true,
+      "features": {
+        "add_friend": {
+          "enabled": false,
+          "limit": 10
+        },
+        "accept_friend": {
+          "enabled": false,
+          "limit": 10
+        },
+        "story": {
+          "enabled": false,
+          "limit": 5
+        },
+        "post": {
+          "enabled": false,
+          "limit": 2
+        },
+        "like": {
+          "enabled": false,
+          "limit": 10
+        },
+        "comment": {
+          "enabled": false,
+          "limit": 3
+        },
+        "messenger": {
+          "enabled": false,
+          "limit": 3
+        }
+      }
+    }
+  ]
+}

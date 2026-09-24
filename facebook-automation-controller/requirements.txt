@@ -1,0 +1,3 @@
+# Add only dependencies required by approved module adapters.
+# Example:
+# playwright>=1.40
